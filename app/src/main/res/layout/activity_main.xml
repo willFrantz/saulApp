@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_setpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_hint_setpoint"
+            android:inputType="numberDecimal|numberSigned"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_label_setpoint" />
+
+        <Button
+            android:id="@+id/infosetpoint"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="?" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_histerese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_hint_histerese"
+            android:tooltipText="SDJOisjdoijsdoiapjsdopiajpsdpoiaj"
+            android:inputType="numberDecimal|numberSigned"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_label_histerese" />
+
+        <Button
+            android:id="@+id/infohist"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:text="?" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_tempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_hint_tempo"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_label_tempo" />
+
+        <Button
+            android:id="@+id/infotempo"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="?" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_habilitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_habilitar_text"/>
+
+</LinearLayout>
+

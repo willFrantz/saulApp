@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SaulAPP</string>
+
+    ------------strings marotas-----
+    <string name="main_title">APP MAROTO DO SAUL</string>
+    <string name="main_label_setpoint">C° - Set-point</string>
+    <string name="main_label_histerese">C° - Histerese</string>
+    <string name="main_label_tempo">h - Tempo</string>
+    <string name="main_hint_setpoint">10.0 a 99.9</string>
+    <string name="main_hint_histerese">0.1 a 10.0</string>
+    <string name="main_hint_tempo">1 a 24</string>
+    <string name="main_btn_habilitar_text">Habilitar envio</string>
+    <string name="main_btn_desabilitar_text">Desabilitar envio</string>
+    -----------infos ------------
+    <string name="info_setpoint">Set-point é o valor alvo no qual o controlador vai buscar manter a temperatura do processo. Ajustável de 10,0 a 99.9 Cº.</string>
+    <string name="info_histerese">Ao chegar no valor do set-point, a resistência será desligada e voltará a ligar novamente, quando a temperatura cair um determinado valor. Esse valor diferencial é a histerese. Ajustável de 0.1 a 10.0 Cº.</string>
+    <string name="info_tempo">Tempo em que o controlador vai manter o controle de temperatura. Ajustável de 1 a 24 horas.</string>
+</resources>
